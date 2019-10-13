@@ -9,5 +9,6 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-   
+   fdmt = ["Jaws","Close Encounters of the Third Kind", "Raider of the Lost Ark", "E.T. the Extra-ierrestrial","Schindler's List", "Lincoln"]
+   pp fdmt
 end
