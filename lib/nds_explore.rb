@@ -10,5 +10,10 @@ end
 
 def print_first_directors_movie_titles
    fdmt = ["Jaws","Close Encounters of the Third Kind", "Raider of the Lost Ark", "E.T. the Extra-ierrestrial","Schindler's List", "Lincoln"]
-   pp fdmt
+   x = 0 
+   while x < fdmt.length do 
+     pp fdmt[x]
+     x += 1 
+   end 
+   
 end
